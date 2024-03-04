@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.menu_bg{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.menu_bg ul li a.active{
+    color: aqua !important;
+
+}
+.bg{
+    background-color: orchid;
+    animation: mun 2s;
+}
+@keyframes  mun {
+    0%{
+        top: -50px;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+#banner{
+    height: 600px;
+    background-color: brown;
+}
+
+#about{
+    height: 600px;
+    background-color: gray;
+}
+#blog{
+    height: 600px;
+    background-color: green;
+}
+#footer{
+    height: 600px;
+    background-color: rebeccapurple;
+}
+.backtop i{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
